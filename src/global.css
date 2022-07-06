@@ -1,0 +1,105 @@
+@font-face {
+  font-family: "Sen";
+  src: url("fonts/Sen/Sen-Bold.ttf");
+}
+
+html {
+  height: 100%;
+}
+
+html * {
+  font-family: "Sen", serif !important;
+}
+
+body {
+  margin: 0;
+}
+
+::-webkit-input-placeholder {
+  text-align: center;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  text-align: center;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  text-align: center;
+}
+
+:-ms-input-placeholder {
+  text-align: center;
+}
+
+.config-img {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.contain {
+  background-size: contain !important;
+}
+.flex {
+  display: flex !important;
+}
+
+.center {
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.column {
+  flex-direction: column !important;
+}
+
+.btn-green-light {
+  background-color: #98c21d !important;
+  color: #ffffff !important;
+  font-weight: bold !important;
+  border: 3px solid #ffffff !important;
+  font-size: 1.3rem !important;
+  padding: 5px 30px !important;
+  border-radius: 50px !important;
+  cursor: pointer !important;
+}
+
+.btn-block {
+  background-color: #6a6b66 !important;
+  color: #ffffff !important;
+  font-weight: bold !important;
+  border: 3px solid #ffffff !important;
+  font-size: 1.3rem !important;
+  padding: 5px 30px !important;
+  border-radius: 50px !important;
+}
+
+.input-form {
+  width: 290px;
+  height: 30px;
+  display: block;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.input-form-lock {
+  width: 290px;
+  height: 30px;
+  display: block;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #7a7a7a;
+  text-align: center;
+}
+
+.input-form:focus,
+.input-form:active {
+  outline: none !important;
+  border: 3px solid #98c21d;
+}

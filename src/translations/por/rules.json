@@ -1,0 +1,10 @@
+{
+  "rule1": "Cada mundo tem uma ou mais curiosidades e cada curiosidade tem um conjunto de perguntas.",
+  "rule2": "As curiosidades devem estar corretas em sua totalidade para avançar.",
+  "rule3": "À medida que você avança nos mundos da segurança cibernética, Segurín também evoluirá",
+  "rule4": "Cada questão tem uma pontuação atribuída. Quando você acertar essa pontuação ela será adicionada para passar curiosidades",
+  "rule5": "Se você não passar nas curiosidades, você pode tentar novamente, mas sua pontuação será penalizada",
+  "rule6": "Cada tentativa que você fizer em uma curiosidade será penalizada com 20% do valor máximo da curiosidade.",
+  "rule7": "Se você passar 10 dias ou mais de inatividade, terá que fazer as últimas curiosidades jogadas novamente.",
+  "rule8": "Os pontos serão resgatáveis apenas para os prêmios já estabelecidos e que você pode ver na seção de prêmios."
+}

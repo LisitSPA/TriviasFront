@@ -1,0 +1,10 @@
+{
+  "rule1": "Each world has one or more trivia and each trivia has a set of questions.",
+  "rule2": "The trivia must be correct in its entirety to advance.",
+  "rule3": "As you advance through the worlds of cybersecurity, Segurín will also evolve",
+  "rule4": "Each question has an assigned score. When you hit this score it will be added to pass trivia",
+  "rule5": "If you don't pass the trivia, you can try again but your score will be penalized",
+  "rule6": "Each attempt you make on a trivia will be penalized with 20% of the maximum value of the trivia.",
+  "rule7": "If you spend 10 days or more of inactivity, you will have to do the last played trivia again.",
+  "rule8": "The points will be redeemable only for the prizes already established and that you can see in the prizes section."
+}

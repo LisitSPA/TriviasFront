@@ -1,0 +1,41 @@
+.effect-trivia:hover{
+    border: 5px solid rgba(5,250,231,0.5629961457239145);
+    animation: trivia 1.5s linear infinite;
+    visibility: visible;
+}
+
+.effect-apper:hover > #prueba{
+    opacity: 1;
+    transition: all .5s;
+}
+
+#prueba{
+    opacity: 0;
+}
+
+@keyframes trivia {
+    0% {
+        margin-top: 10px;
+    }
+
+    30% {
+        margin-top: 15px;
+    }
+
+    50% {
+        margin-top: 20px;
+    }
+
+
+    65% {
+        margin-top: 15px;
+    }
+
+    85% {
+        margin-top: 10px;
+    }
+
+    100% {
+        margin-top: 5px;
+    }
+}

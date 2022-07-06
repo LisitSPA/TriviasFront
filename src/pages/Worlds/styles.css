@@ -1,0 +1,60 @@
+.input-world{
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -40px;
+    box-shadow: 5px 10px 5px 1px;
+}
+
+.title-world{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.container-world:hover{
+    animation: animacion 1.5s linear infinite;
+
+}
+
+@keyframes animacion {
+    0% {
+        box-shadow: 0 0 0 0 rgba(136, 194, 206, 0.6);
+        border: 1px solid white;
+    }
+
+    30% {
+        box-shadow: 0 0 0 10px rgba(136, 194, 206, .6);
+        background-color: rgba(162, 199, 206, .3);
+        border: 1px solid white;
+    }
+
+    50% {
+        box-shadow: 0 0 0 20px rgba(136, 194, 206, .6);
+        background-color: rgba(162, 199, 206, .5);
+        border: 1px solid white;
+    }
+
+
+    65% {
+        box-shadow: 0 0 0 20px rgba(136, 194, 206, .6);
+        background-color: rgb(162, 199, 206);
+        border: 1px solid white;
+    }
+
+    85% {
+        box-shadow: 0 0 0 10px rgba(136, 194, 206, .6);
+        background-color: rgb(162, 199, 206);
+        border: 1px solid white;
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgba(136, 194, 206, .6);
+        background-color: rgb(162, 199, 206);
+        border: 1px solid white;
+    }
+}

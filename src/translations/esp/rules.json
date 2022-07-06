@@ -1,0 +1,10 @@
+{
+  "rule1": "Cada mundo tiene una o más trivias y cada trivia tiene un set de preguntas",
+  "rule2": "Las trivias deberán ser acertadas en su totalidad para lograr avanzar.",
+  "rule3": "A medida que vayas avanzando sobre los mundos de ciberseguridad, también irá evolucionando Segurín",
+  "rule4": "Cada pregunta tiene un puntaje asignado. Cuando aciertas este puntaje se irá sumando para pasar de trivia",
+  "rule5": "Si no apruebas la trivia, podrás intentarlo nuevamente pero se te penalizará el puntaje",
+  "rule6": "Cada intento que realices sobre una trivia será penalizado con el 20% sobre el valor máximo de la trivia.",
+  "rule7": "Si pasas 10 días o más de inactividad, deberás realizar nuevamente la última trivia jugada.",
+  "rule8": "Los puntos serán canjeables únicamente por los premios ya establecidos y que podrás ver en la sección de premios."
+}

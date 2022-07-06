@@ -1,0 +1,70 @@
+
+.circulo {
+    width: 50px;
+    height: 50px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: grey;
+}
+
+.contenedor {
+    position: relative;
+    width: 500px;
+    cursor: pointer;
+}
+
+.contenedor-circulo {
+    background-color: grey;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 45px;
+    width: 45px;
+    transition: all .4s;
+}
+
+.contenedor-circulo:hover{
+    background-color: #9ABD11;
+}
+
+.contenedor-informaesto {
+    background-color: white;
+    position: relative;
+    border: 1px solid;
+    /*height: 100px;*/
+    left: 3%;
+    width: 500px;
+    padding: 10px 0;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+@keyframes trivia {
+    0% {
+        margin-top: 10px;
+    }
+
+    30% {
+        margin-top: 15px;
+    }
+
+    50% {
+        margin-top: 20px;
+    }
+
+
+    65% {
+        margin-top: 15px;
+    }
+
+    85% {
+        margin-top: 10px;
+    }
+
+    100% {
+        margin-top: 5px;
+    }
+}
